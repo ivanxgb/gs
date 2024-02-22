@@ -2,6 +2,10 @@
 ## Tarea
 
 1. **Cuenta Bancaria**: Diseña una clase `CuentaBancaria` que tenga atributos para el nombre del titular, el número de cuenta y el saldo. Incluye métodos para depositar y retirar dinero, además de un constructor para inicializar el titular y el número de cuenta (el saldo puede iniciar en cero).
+   - Métodos:
+     - `agregarSaldo(monto)`: Recibe por parámetro un saldo a agregar al total del usuario
+     - `retirarSaldo(monto)`: Recibe por parámetro un saldo a restar del total del usuario. Debe validar que el monto NO sea superior al disponible.
+     - `mostrarSaldo()`: imprime la cantidad de dinero actual en la cuenta.
 
 2. **Cronómetro**: Desarrollar una clase `Cronometro` que simule el funcionamiento básico de un cronómetro, iniciar, detener, y mostrar el tiempo transcurrido.
    
