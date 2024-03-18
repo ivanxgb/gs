@@ -5,6 +5,8 @@ import day3.Cronometro;
 import day3.CuentaBancaria;
 import day3.Day3;
 import day4.Day4;
+import day4.ListaCompra;
+import day4.Producto;
 
 public class Main {
     public static void main(String[] args) {
@@ -37,11 +39,41 @@ public class Main {
 //        Day3.loops();
 
 //        Day4.learningArray();
-        Day4.learningArrayList();
+//        Day4.learningArrayList();
+
+        Main.probandoListas();
     }
 
 
+    public static void probandoListas() {
+        Producto producto1 = new Producto("Camisa", 2000);
+        Producto producto2 = new Producto("Zapatillas", 5000);
+        Producto producto3 = new Producto("Celular", 1000);
+        Producto producto4 = new Producto("Computador", 2500);
+        Producto producto5 = new Producto("Televisor", 3000);
+        Producto producto6 = new Producto("Pantalón", 3000);
+        Producto producto7 = new Producto("Auriculares", 8000);
+        Producto producto8 = new Producto("Libro", 5000);
 
+        ListaCompra miLista = new ListaCompra();
+
+        miLista.agregar(producto1);
+        miLista.agregar(producto2);
+        miLista.agregar(producto3);
+        miLista.agregar(producto4);
+        miLista.agregar(producto5);
+        miLista.agregar(producto6);
+        miLista.agregar(producto7);
+        miLista.agregar(producto8);
+
+        miLista.calcularPrecioTotal();
+
+        miLista.eliminar(producto2);
+        miLista.eliminar(producto2);
+        miLista.eliminar(producto7);
+
+        miLista.calcularPrecioTotal();
+    }
 }
 
 
