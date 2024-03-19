@@ -7,6 +7,7 @@ import day3.Day3;
 import day4.Day4;
 import day4.ListaCompra;
 import day4.Producto;
+import day5.day5;
 
 public class Main {
     public static void main(String[] args) {
@@ -41,7 +42,12 @@ public class Main {
 //        Day4.learningArray();
 //        Day4.learningArrayList();
 
-        Main.probandoListas();
+//        Main.probandoListas();
+
+//        day5.funcionSuma(100);
+
+        day5.arrayDeArrays();
+
     }
 
 
