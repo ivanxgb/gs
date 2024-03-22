@@ -8,6 +8,8 @@ import day4.Day4;
 import day4.ListaCompra;
 import day4.Producto;
 import day5.day5;
+import day7.Day7;
+import day7.TestDay7;
 
 public class Main {
     public static void main(String[] args) {
@@ -46,8 +48,10 @@ public class Main {
 
 //        day5.funcionSuma(100);
 
-        day5.arrayDeArrays();
+//        day5.arrayDeArrays();
 
+
+        TestDay7.testCristalBall();
     }
 
 
