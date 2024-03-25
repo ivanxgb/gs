@@ -1,5 +1,6 @@
 package day7;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Random;
 
@@ -35,4 +36,25 @@ public class TestDay7 {
 
         System.out.println("Piso dado: " + pisoDesdeDondeSeParte + "\n" + "Piso encontrado: " + Day7.cristalBall(pisos));
     }
+
+    public static void test2MergeArray() {
+        int[] arr = {2, 34, 55, 13, 44};
+        int[] arr2 = {5, 3, 5, 3, 4};
+
+        ArrayList<Integer> merged = PracticaArray.retornoLista(arr, arr2);
+
+        System.out.println("Size of arr + arr2: " + (arr.length + arr2.length));
+        System.out.println("Size of new list: " + merged.size());
+    }
+
+    public static void lowerAndHigher() {
+        int[] arr = {29, 30, -1, -123991, 184838, 77889};
+
+        int[] response = PracticaArray.obtenerMenorYMayor(arr);
+
+        System.out.println("Menor es -123991?: " + (response[0] == -123991));
+        System.out.println("Mayor es 184838?: " + (response[1] == 184838));
+
+    }
+
 }

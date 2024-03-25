@@ -51,7 +51,7 @@ public class Main {
 //        day5.arrayDeArrays();
 
 
-        TestDay7.testCristalBall();
+        TestDay7.lowerAndHigher();
     }
 
 
