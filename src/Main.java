@@ -10,6 +10,7 @@ import day4.Producto;
 import day5.day5;
 import day7.Day7;
 import day7.TestDay7;
+import day9.TestDay9;
 
 public class Main {
     public static void main(String[] args) {
@@ -51,7 +52,9 @@ public class Main {
 //        day5.arrayDeArrays();
 
 
-        TestDay7.lowerAndHigher();
+//        TestDay7.lowerAndHigher();
+
+        TestDay9.test2Sum();
     }
 
 
