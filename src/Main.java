@@ -54,7 +54,9 @@ public class Main {
 
 //        TestDay7.lowerAndHigher();
 
-        TestDay9.test2Sum();
+//        TestDay9.test2Sum();
+
+        TestDay9.testRomanToInt();
     }
 
 

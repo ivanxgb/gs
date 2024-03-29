@@ -12,4 +12,14 @@ public class TestDay9 {
         System.out.println("Target: 30 = " + Arrays.equals(Day9.sum2Elementos(arr1, 30), new int[]{3, 27}));
     }
 
+    public static void testRomanToInt() {
+        int MCMXCIV = TareaDia9.romanToInt("MCMXCIV");
+        int LVIII = TareaDia9.romanToInt("LVIII");
+        int III = TareaDia9.romanToInt("III");
+
+        System.out.println("MCMXCIV es 1994? " + (MCMXCIV == 1994));
+        System.out.println("LVIII es 58? " + (LVIII == 58));
+        System.out.println("III es 3? " + (III == 3));
+    }
+
 }
