@@ -56,7 +56,8 @@ public class Main {
 
 //        TestDay9.test2Sum();
 
-        TestDay9.testRomanToInt();
+//        TestDay9.testRomanToInt();
+        TestDay9.testArrToInt();
     }
 
 

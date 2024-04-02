@@ -13,13 +13,21 @@ public class TestDay9 {
     }
 
     public static void testRomanToInt() {
-        int MCMXCIV = TareaDia9.romanToInt("MCMXCIV");
-        int LVIII = TareaDia9.romanToInt("LVIII");
-        int III = TareaDia9.romanToInt("III");
+        int MCMXCIV = TareaDia9.romanoAInteger("MCMXCIV");
+        int LVIII = TareaDia9.romanoAInteger("LVIII");
+        int III = TareaDia9.romanoAInteger("III");
 
         System.out.println("MCMXCIV es 1994? " + (MCMXCIV == 1994));
         System.out.println("LVIII es 58? " + (LVIII == 58));
         System.out.println("III es 3? " + (III == 3));
+    }
+
+    public static void testArrToInt() {
+        int[] arr1 = new int[] {4, 1, 4};
+        int[] arr2 = new int[] {1, 3, 2};
+
+        System.out.println("arr1 is 414?" + (TareaDia9.arrToInt(arr1) == 414));
+        System.out.println("arr2 is 132?" + (TareaDia9.arrToInt(arr2) == 132));
     }
 
 }
